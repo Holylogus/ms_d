@@ -15,6 +15,6 @@ span{
 a{
     font-family: 'Roboto Serif', serif;
 }
-.offcanvas{
+#offcanvasNavbar{
     max-width: 60vw;
 }

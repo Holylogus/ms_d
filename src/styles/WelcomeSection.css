@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&family=Playfair+Display+SC:wght@700&family=Roboto+Serif:ital,opsz,wght@1,8..144,900&display=swap');
 
 .Welcome{
     min-height: 85vh;
@@ -7,8 +6,10 @@
     background-size: cover;
     background-position: 40%;
 }
-h1{
-    color: brown;
-    font-family: 'Roboto Serif', serif;
-    padding-top: 50%;
+.carousel{
+    min-height: 80vh;
+}
+.carousel img{
+    width: fit-content;
+    height: max-content;
 }
