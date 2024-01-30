@@ -1,15 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&family=Playfair+Display+SC:wght@700&family=Roboto+Serif:ital,opsz,wght@1,8..144,900&display=swap');
-
-.Welcome{
-    min-height: 85vh;
-    background-image: url('../images/backGround.jpg');
-    background-size: cover;
-    background-position: 40%;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&family=Playfair+Display+SC:wght@900&family=Roboto+Serif:ital,opsz,wght@1,8..144,900&display=swap');
+.Welcome {
+  min-height: 85vh;
+  background-image: url("../images/backGround.jpg");
+  background-size: cover;
+  background-position: 40%;
 }
-.carousel{
-    min-height: 80vh;
+.carousel {
+  min-height: 80vh;
 }
-.carousel img{
-    width: fit-content;
-    height: max-content;
+.carousel img {
+  width: fit-content;
+  height: 80vh;
+  image-rendering: pixelated;
+}
+.carousel-img-garden {
+  background-image: url("../images/backGround.jpg");
+  background-position: 40%;
+  background-size: cover;
+  height: 80vh;
+}
+.shadowEffect-garden {
+  background-color: rgba(34, 139, 34, 0.2);
+  height: 80vh;
+}
+.carousel-img-garden h1 {
+  padding-top: 45%;
+  color: white;
+  text-shadow: 2px 2px 2px 0.5;
+  font-family: "Playfair Display SC", serif;
+  font-size: 28pt;
+  font-weight: bolder;
+}
+.carousel-img-transport {
+  background-image: url("../images/Carousel_transport.jpg");
+  background-position: 40%;
+  background-size: cover;
+  height: 80vh;
+}
+.shadowEffect-transport {
+    background-color: rgba(166, 123, 91, 0.5);
+    height: 80vh;
+  }
+  .carousel-img-transport h1 {
+    padding-top: 45%;
+    color: white;
+    text-shadow: 2px 2px 2px 0.5;
+    font-family: "Playfair Display SC", serif;
+    font-size: 28pt;
+    font-weight: bolder;
+  }
+.carousel-img-garbage {
+  background-image: url("../images/entruempelung.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
 }

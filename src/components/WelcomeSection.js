@@ -1,34 +1,26 @@
 import React from "react";
 import "../styles/WelcomeSection.css";
-import Carousel from 'react-bootstrap/Carousel';
-import firstImage from '../images/backGround.jpg'
-import Image from 'react-bootstrap/Image';
+import Carousel from "react-bootstrap/Carousel";
 
 function WelcomeSection() {
   return (
-    <Carousel>
+    <Carousel indicators={false} controls={true}>
       <Carousel.Item>
-        <Image src={firstImage} fluid/>
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+        <div className="carousel-img-garden">
+          <div className="shadowEffect-garden">
+            <h1>Wir lassen den Garten Ihrer Träume wahr werden</h1>
+          </div>
+        </div>
       </Carousel.Item>
       <Carousel.Item>
-      <Image src={firstImage} fluid/>
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+        <div className="carousel-img-transport">
+          <div className="shadowEffect-transport">
+            <h1>Wir bieten zuverlässige Lieferdienste</h1>
+          </div>
+        </div>
       </Carousel.Item>
       <Carousel.Item>
-      <Image src={firstImage} fluid/>
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+        <div className="carousel-img-garbage"></div>
       </Carousel.Item>
     </Carousel>
   );
