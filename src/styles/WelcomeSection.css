@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,900&display=swap');
+
+
+.Welcome{
+    min-height: 85vh;
+    background-image: url('../images/backGround.jpg');
+    background-size: cover;
+    background-position: 40%;
+}
+h1{
+    color: brown;
+    font-family: 'Roboto Serif', serif;
+    padding-top: 50%;
+}
